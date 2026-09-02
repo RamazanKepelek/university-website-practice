@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Üniversite Web Sitesi Tasarımı</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/fontawesome.min.css">
+
+        
+
+
+
+
+    </head>
+
+
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="image/logo.png"></a>
+                <div class="nav-links">
+                    <i class="fa fa-window-close-o" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href=""></a>Ana Sayfa</li>
+                        <li><a href=""></a>Hakkında</li>
+                        <li><a href=""></a>Kurs</li>
+                        <li><a href=""></a>Blog</li>
+                        <li><a href=""></a>İletişim</li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="hideMenu()"></i>
+
+            </nav>
+            <div class="text-box">
+                <h1>Dünyanın En Büyük Üniversitesi</h1>
+                <p>Web sitesi yapmak artık dünyanın en kolay işi. Sadece HTML, CSS ve <br> Javascript öğrenmeniz yeterli </p>
+                <a href="" class="hero-btn">Bizi Ziyaret Edin</a>
+            </div>
+
+        </section>
+
+        <!------------------Kurs--------------------------------->
+
+        <section class="kurs">
+            <h1>Sunduğumuz Kurslar</h1>
+            <p>Lorem ipsum</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Orta Seviye</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam id nam laboriosam consequuntur tempore omnis sequi et iure, unde ex, est hic totam ipsa officiis provident quia. Sed, sunt at.</p>
+
+                </div>
+                 <div class="course-col">
+                    <h3>Lisans</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam id nam laboriosam consequuntur tempore omnis sequi et iure, unde ex, est hic totam ipsa officiis provident quia. Sed, sunt at.</p>
+
+                </div>
+                 <div class="course-col">
+                    <h3>Yüksek Lisans</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam id nam laboriosam consequuntur tempore omnis sequi et iure, unde ex, est hic totam ipsa officiis provident quia. Sed, sunt at.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-------------------------------campus--------------------------------------------->
+        <section class="campus">
+            <h1>Küresel Kampüs</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia rerum sint numquam labore quod quas at autem adipisci eveniet corrupti atque natus, minima aut, voluptatum placeat commodi ducimus mollitia facere.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="image/london.png" >
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="image/newyork.png" >
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div> 
+                </div>
+                <div class="campus-col">
+                    <img src="image/washington.png" >
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>       
+
+
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+        <!-----------------Facilities-------------------->
+
+        <section class="tesisler">
+            <h1>Tesislerimiz</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ab, voluptatem libero veritatis facilis, ipsum, assumenda commodi odit cupiditate tenetur dolorum dolorem minus animi beatae? Fugiat soluta natus corporis officia!</p>         
+        </section>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/library.png" >
+                <h3>Dünya Standartlarında Kütüphane</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione voluptatem voluptatum unde non amet placeat iste a error? Tenetur obcaecati, numquam perspiciatis corporis accusantium maiores assumenda cumque iure ab ducimus.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/basketball.png" >
+                <h3>En Büyük Oyun Alanı</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione voluptatem voluptatum unde non amet placeat iste a error? Tenetur obcaecati, numquam perspiciatis corporis accusantium maiores assumenda cumque iure ab ducimus.</p>
+            </div>
+             <div class="facilities-col">
+                <img src="image/cafeteria.png" >
+                <h3>Lezzetli ve Sağlıklı Yemekler</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione voluptatem voluptatum unde non amet placeat iste a error? Tenetur obcaecati, numquam perspiciatis corporis accusantium maiores assumenda cumque iure ab ducimus.</p>
+            </div>
+       
+        <!-------------------testimonials--------------------->
+
+        <!--<section class="testimonials">
+            <h1>Öğrencimiz Ne Diyor.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui iste cumque totam commodi debitis tenetur voluptas quod consequatur facilis accusantium perferendis sunt ut veritatis voluptatem quasi nam illum, illo a.</p>
+
+        </section>--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <!--------- Javascript Menu ----------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200"
+            }
+        </script>
+        
+    </body>
+</html>
