@@ -41,6 +41,24 @@ The website includes the following sections:
 - Responsive design using CSS media queries
 - CSS hover and transition effects
 
+## Project Preview
+
+### Hero Section
+
+![Hero Section](image/hero-preview.png)
+
+### Courses Section
+
+![Courses Section](image/courses-preview.png)
+
+### Global Campus
+
+![Global Campus](image/campus-preview.png)
+
+### Facilities
+
+![Facilities](image/facilities-preview.png)
+
 ## What I Practiced
 
 ### HTML
