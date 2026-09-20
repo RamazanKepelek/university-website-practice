@@ -43,21 +43,21 @@ The website includes the following sections:
 
 ## Project Preview
 
-### Hero Section
+### Hero / Main Page
 
-![Hero Section](image/hero-preview.png)
+![Ana Sayfa](image/AnaSayfa.png)
 
 ### Courses Section
 
-![Courses Section](image/courses-preview.png)
+![Courses](image/Kurslar.png)
 
 ### Global Campus
 
-![Global Campus](image/campus-preview.png)
+![Global Campus](image/Kampüs.png)
 
 ### Facilities
 
-![Facilities](image/facilities-preview.png)
+![Facilities](image/Tesislerimiz.png)
 
 ## What I Practiced
 
@@ -81,16 +81,16 @@ I practiced:
 - CSS selectors
 - Box model
 - Flexbox
-- `display: flex`
-- `justify-content`
-- `flex-basis`
-- `position`
-- `transform`
-- `background-image`
-- `background-position`
-- `background-size`
-- `transition`
-- `:hover`
+- display: flex
+- justify-content
+- flex-basis
+- position
+- transform
+- background-image
+- background-position
+- background-size
+- transition
+- :hover
 - Media queries
 - Typography
 - Spacing and sizing
@@ -105,8 +105,8 @@ The hero background image did not initially appear.
 
 I checked:
 
-- The `background-image` declaration
-- `rgba()` syntax
+- The background-image declaration
+- rgba() syntax
 - Relative image paths
 - The project folder structure
 - Whether the CSS file had been saved
@@ -117,7 +117,7 @@ The issue was ultimately related to the file not being saved correctly.
 
 The navigation menu initially had problems with the structure of the anchor elements.
 
-This helped reinforce the difference between the `href` attribute and the content of an `<a>` element.
+This helped reinforce the difference between the href attribute and the content of an `<a>` element.
 
 ### Flexbox Layout
 
@@ -181,7 +181,11 @@ university-website-practice/
 │   ├── washington.png
 │   ├── library.png
 │   ├── basketball.png
-│   └── cafeteria.png
+│   ├── cafeteria.png
+│   ├── AnaSayfa.png
+│   ├── Kurslar.png
+│   ├── Kampüs.png
+│   └── Tesislerimiz.png
 │
 ├── index.html
 ├── style.css
